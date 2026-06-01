@@ -99,8 +99,8 @@ header button{
 
 
 .dos{
-    width: 40%;
-    height: 100%;
+    width: 35%;
+    height: 80%;
     background-color: rgba(154, 146, 2, 0.288);
     border-radius: 20px;
 }
@@ -133,8 +133,12 @@ header button{
     font-size: 50px;
 }
 .de{
-    width: 70%;
-    height: 80%;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .lo{
     width: 80%;
@@ -193,11 +197,9 @@ header button{
 .sol{
     width: 98%;
     height: 40px;
-    border: 1px solid black;
-    margin: 30px auto;
+    margin: 10px auto;
+    margin-left: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sol i {
     font-size: 20px;
@@ -414,13 +416,14 @@ footer{
 .cont i{
     font-size: 40px;
 }
-.de{
+.ils{
     width: 30%;
     height: 150px;
     color: white;
     display: flex;
     justify-content: center;
-}
+ }
+
 .Nous{
     width: 80%;
     height: 50px;
