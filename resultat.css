@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+
+header{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 50px;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px; 
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+header button{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #057af8;
+    color: white;
+    font-size: 18px;
+    padding: 0 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+.tout{
+    width: 80%;
+    height: 700px;
+    margin: 10px auto;
+}
+.deux{
+    width: 80%;
+    height: 350px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.un{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+   
+}
+.un img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.une{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.trois{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dos{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(154, 146, 2, 0.288);
+    border-radius: 20px;
+}
+
+.uno{
+    width: 56%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+
+.la{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.le{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.le i{
+    font-size: 50px;
+}
+.de{
+    width: 70%;
+    height: 80%;
+}
+.lo{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 161, 9);
+    border-radius: 10px;
+}
+.lo i{
+    font-size: 40px;
+}
+.li{
+    width: 80%;
+    height: 50px;
+    border: 1px solid rgb(11, 161, 195);
+    color: rgb(11, 161, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.li i{
+    font-size: 30px;
+}
+
+.mi{
+    width: 50%;
+    height: 100%;
+    border: 1px solid pink;
+}
+
+/* kzvkfbkbzkj */
+
+
+.Long{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Re{
+    height: 78%;
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.Re img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sol{
+    width: 98%;
+    height: 40px;
+    border: 1px solid black;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sol i {
+    font-size: 20px;
+}
+.all{
+    width: 60%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ma{
+    width: 55%;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.mon{
+    width: 55%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.mon h2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.mon p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px
+}
+.nom{
+    width: 60%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.nom samp  {
+    color: rgb(9, 161, 9);
+}
+.prix{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.prix i{
+    font-size: 35px;
+}
+.icone{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+.papa{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.papa i{
+    font-size: 30px;
+}
+.mes{
+    width: 65%;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+}
+.mes h2{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.mes .maman{
+    font-size: 20px;
+}
+.ton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+}
+.annonce{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ta{
+    width: 95%;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.vous{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    height: 60%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.local{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.local h6{
+    font-size: 18px;
+}
+.local samp{
+    font-size: 18px;
+    color: rgb(20, 135, 20);
+}
+.super{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.super i{
+    font-size: 30px;
+}
+.super h6{
+    font-size: 18px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 50px;
+}
+.mois{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+.contact{
+    width: 30%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h3{
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact h6{
+    font-size: 18px;
+}
+.slog{
+    width: 50%;
+    height: 10%;
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+}
+.log{
+    width: 40%;
+    height: 150px;
+}
+.log img{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 80%;
+    height: 20%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.cont i{
+    font-size: 40px;
+}
+.de{
+    width: 30%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Nous{
+    width: 80%;
+    height: 50px;
+}
+.align{
+    width: 80%;
+    height: 60%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.align h6{
+    font-size: 20px;
+}

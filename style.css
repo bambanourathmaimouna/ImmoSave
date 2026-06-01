@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+header{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 50px;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px; 
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+header button{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #057af8;
+    color: white;
+    font-size: 18px;
+    padding: 0 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+
+.all{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(37, 39, 40, 0.5), rgba(33, 33, 33, 0.5)), url('IMAGES/WhatsApp\ Image\ 2026-05-06\ at\ 11.58.50.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    }
+
+.all .la{
+    width: 50%;
+    height:200px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.all .le{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin: 50px;
+}
+.barre{
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.type{
+    width: 20%;
+    height:100px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.type i{
+    font-size: 40px;
+}
+.ecriture .un{
+    font-size: 16px;
+
+}
+.diff{
+    width: 20%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.diff a{
+    text-decoration: none;
+}
+.diff button{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #057af8;
+    color: white;
+    font-size: 16px;
+    padding: 0 10px; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.diff i{
+    font-size: 30px;
+}
+.one{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+.do{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(106, 105, 105, 0.291);
+}
+.do h3{
+    font-size: 25px;
+}
+.do p {
+    font-size: 20px;
+}
+.do i{
+    font-size: 40px;
+}
+.dos{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.dos i{
+    font-size: 40px;
+}
+.choisir{
+    width: 50%;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.choisir a{
+    color: white;
+    text-decoration: none;
+}
+.louer{
+    width: 30%;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #057af8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logement{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 220px;
+}
+.Image{
+    width: 60%;
+    height: 500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.grand{
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+}
+.logement h1{
+    font-size: 50px;
+
+}
+.moyenne{
+    width: 100%;
+    height: 60%;
+   
+}
+.moyenne img{
+    width: 100%;
+    height: 100%;
+
+}
+.prix{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.prix span{
+    color: #057af8;
+}
+.ville{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.detail{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #057af8;
+    font-size: 20px;
+    color: white;
+}
+.icone i{
+    color: #057af8;
+    font-size: 40px;
+}
+.moyenne.coeur{
+    width: 10%;
+    height: 30px;
+    background-color: black;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 50px;
+}
+.mois{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+.contact{
+    width: 30%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h3{
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact h6{
+    font-size: 18px;
+}
+.slog{
+    width: 50%;
+    height: 10%;
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+}
+.log{
+    width: 40%;
+    height: 150px;
+}
+.log img{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 80%;
+    height: 20%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.cont i{
+    font-size: 40px;
+}
+.de{
+    width: 30%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Nous{
+    width: 80%;
+    height: 50px;
+}
+.align{
+    width: 80%;
+    height: 60%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.align h6{
+    font-size: 20px;
+}

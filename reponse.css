@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+header{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 50px;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px; 
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+header button{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #057af8;
+    color: white;
+    font-size: 18px;
+    padding: 0 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.ville{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+.quartier{
+    width: 300px;
+    height: 50px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+}
+.quartier p{
+    font-size: 15px;
+    color: rgba(72, 71, 71, 0.277);
+}
+label{
+    font-size: 18px;
+    color:black;
+}
+
+select{
+    width: 300px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+}
+
+select:hover{
+    border-color:#057af8;
+}
+
+
+
+option{
+    padding: 10px;
+}
+.option{
+    width: 70%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.type{
+    width: 15%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:rgba(172, 171, 171, 0.339);
+    cursor: pointer;
+}
+.Recherche{
+    width: 20%;
+    height: 80px;
+    background-color: #4a81e7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin: 30px auto;
+}
+.Recherche a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.all{
+    width: 80%;
+    height: 900px;
+    margin: 20px auto;
+}
+.ligne1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ligne2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.carrée{
+    width: 40%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.image{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+}
+.info{
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.local{
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+.local h6{
+    font-size: 25px;
+}
+.icone{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.detail{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail button{
+    width: 400px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #057af8;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.icone i{
+    color: #057af8;
+    font-size: 30px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 450px;
+}
+.mois{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+.contact{
+    width: 30%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h3{
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact h6{
+    font-size: 18px;
+}
+.slog{
+    width: 50%;
+    height: 10%;
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+}
+.log{
+    width: 40%;
+    height: 150px;
+}
+.log img{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 80%;
+    height: 20%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.cont i{
+    font-size: 40px;
+}
+.de{
+    width: 30%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Nous{
+    width: 80%;
+    height: 50px;
+}
+.align{
+    width: 80%;
+    height: 60%;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.align h6{
+    font-size: 20px;
+}
+
