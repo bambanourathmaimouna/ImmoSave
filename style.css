@@ -361,3 +361,273 @@ footer{
 .align h6{
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .all .la,
+    .all .le{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .all .la{
+        font-size: 28px;
+    }
+
+    .all .le{
+        font-size: 22px;
+    }
+
+    .barre{
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .type,
+    .diff{
+        width: 45%;
+    }
+
+    .one{
+        width: 95%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .do,
+    .dos{
+        width: 45%;
+        border-right: none;
+    }
+
+    .choisir{
+        width: 90%;
+    }
+
+    .louer{
+        width: 45%;
+        font-size: 24px;
+    }
+
+    .logement{
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .Image{
+        width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .grand{
+        width: 45%;
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .mois{
+        width: 95%;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .all{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .all .la{
+        width: 100%;
+        font-size: 22px;
+        margin-left: 0;
+        padding: 30px 10px;
+    }
+
+    .all .le{
+        width: 100%;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .barre{
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .type,
+    .diff{
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .one{
+        flex-direction: column;
+    }
+
+    .do,
+    .dos{
+        width: 90%;
+        text-align: center;
+    }
+
+    .do h3,
+    .dos h3{
+        font-size: 20px;
+    }
+
+    .do p,
+    .dos p{
+        font-size: 16px;
+    }
+
+    .choisir{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .louer{
+        width: 90%;
+    }
+
+    .logement h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .Image{
+        flex-direction: column;
+    }
+
+    .grand{
+        width: 95%;
+    }
+
+    .prix{
+        font-size: 20px;
+    }
+
+    .ville{
+        font-size: 18px;
+    }
+
+    .detail button{
+        width: 90%;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .de,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+    }
+
+    .slog{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .all .la{
+        font-size: 18px;
+    }
+
+    .all .le{
+        font-size: 15px;
+    }
+
+    .logement h1{
+        font-size: 28px;
+    }
+
+    .louer{
+        font-size: 20px;
+        height: 70px;
+    }
+
+    .prix{
+        font-size: 18px;
+    }
+
+    .ville{
+        font-size: 16px;
+    }
+
+    .detail button{
+        font-size: 16px;
+    }
+
+    .cont{
+        font-size: 15px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+}

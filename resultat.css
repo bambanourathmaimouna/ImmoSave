@@ -439,3 +439,261 @@ footer{
 .align h6{
     font-size: 20px;
 }
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .tout,
+    section{
+        width: 95%;
+        height: auto;
+    }
+
+    .deux,
+    .trois{
+        width: 95%;
+    }
+
+    .all{
+        width: 90%;
+    }
+
+    .vous{
+        width: 30%;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tout{
+        width: 95%;
+        height: auto;
+    }
+
+    .deux{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .un,
+    .une{
+        width: 100%;
+    }
+
+    .trois{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .dos,
+    .uno{
+        width: 100%;
+    }
+
+    .Long{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .Re{
+        width: 95%;
+        height: 250px;
+    }
+
+    .all{
+        width: 100%;
+        height: auto;
+    }
+
+    .ma,
+    .mon,
+    .mes{
+        width: 95%;
+    }
+
+    .ton{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section{
+        height: auto;
+    }
+
+    .ta{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .vous{
+        width: 100%;
+    }
+
+    .local,
+    .super{
+        margin-left: 10px;
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .ils,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .align{
+        width: 100%;
+        align-items: center;
+    }
+
+    .slog{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    header button{
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .la{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .le{
+        width: 95%;
+    }
+
+    .le i{
+        font-size: 30px;
+    }
+
+    .li,
+    .lo{
+        font-size: 16px;
+    }
+
+    .li i,
+    .lo i{
+        font-size: 22px;
+    }
+
+    .nom,
+    .prix,
+    .mes h2,
+    .mon h2,
+    .mon p{
+        margin-left: 15px;
+    }
+
+    .papa{
+        font-size: 14px;
+    }
+
+    .papa i{
+        font-size: 22px;
+    }
+
+    .local h6,
+    .super h6{
+        font-size: 16px;
+    }
+
+    .super i{
+        font-size: 22px;
+    }
+
+    .cont{
+        font-size: 14px;
+    }
+
+    .cont i{
+        font-size: 24px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+
+    .slog{
+        font-size: 14px;
+    }
+}

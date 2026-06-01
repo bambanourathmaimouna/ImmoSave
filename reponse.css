@@ -9,8 +9,6 @@ body{
 }
 
 
-
-
 header{
     height: 130px;
     display: flex;
@@ -307,3 +305,255 @@ footer{
     font-size: 20px;
 }
 
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .ville{
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .option{
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 15px;
+    }
+
+    .type{
+        width: 30%;
+    }
+
+    .Recherche{
+        width: 35%;
+    }
+
+    .all{
+        width: 95%;
+        height: auto;
+    }
+
+    .ligne1,
+    .ligne2{
+        height: auto;
+        gap: 20px;
+    }
+
+    .carrée{
+        width: 48%;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ville{
+        flex-direction: column;
+        height: auto;
+    }
+
+    select,
+    .quartier{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .option{
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+
+    .type{
+        width: 80%;
+    }
+
+    .Recherche{
+        width: 80%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .all{
+        height: auto;
+    }
+
+    .ligne1,
+    .ligne2{
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .carrée{
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .detail button{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .local{
+        font-size: 22px;
+    }
+
+    .local h6{
+        font-size: 18px;
+    }
+
+    footer{
+        height: auto;
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 25px;
+    }
+
+    .de,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .align{
+        width: 100%;
+        align-items: center;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    header button{
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .type{
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .Recherche{
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .detail button{
+        font-size: 16px;
+    }
+
+    .local{
+        font-size: 18px;
+    }
+
+    .local h6{
+        font-size: 16px;
+    }
+
+    .icone{
+        font-size: 16px;
+    }
+
+    .icone i{
+        font-size: 22px;
+    }
+
+    .cont{
+        font-size: 14px;
+    }
+
+    .cont i{
+        font-size: 25px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+
+    .slog{
+        font-size: 14px;
+    }
+}

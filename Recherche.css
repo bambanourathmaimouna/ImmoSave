@@ -308,6 +308,267 @@ footer{
 }
 
 
+/* =======================
+   IMAGES ET CORPS
+======================= */
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* =======================
+   TABLETTES
+======================= */
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .ville{
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .option{
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 15px;
+    }
+
+    .type{
+        width: 30%;
+    }
+
+    .Recherche{
+        width: 40%;
+    }
+
+    .all{
+        width: 95%;
+        height: auto;
+    }
+
+    .ligne1,
+    .ligne2{
+        height: auto;
+        gap: 20px;
+    }
+
+    .carrée{
+        width: 45%;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* =======================
+   TELEPHONES
+======================= */
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ville{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    select,
+    .quartier{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .option{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type{
+        width: 80%;
+    }
+
+    .Recherche{
+        width: 80%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .ligne1,
+    .ligne2{
+        flex-direction: column;
+    }
+
+    .carrée{
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .local{
+        font-size: 22px;
+    }
+
+    .local h6{
+        font-size: 20px;
+    }
+
+    .detail button{
+        width: 90%;
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .de,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .align{
+        width: 100%;
+        align-items: center;
+    }
+
+    .slog{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+/* =======================
+   PETITS TELEPHONES
+======================= */
+@media screen and (max-width: 480px){
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    header button{
+        height: 40px;
+        font-size: 14px;
+    }
+
+    label{
+        font-size: 16px;
+    }
+
+    select,
+    .quartier{
+        font-size: 14px;
+    }
+
+    .type{
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .Recherche{
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .local h6{
+        font-size: 18px;
+    }
+
+    .icone{
+        font-size: 16px;
+    }
+
+    .icone i{
+        font-size: 24px;
+    }
+
+    .detail button{
+        font-size: 16px;
+    }
+
+    .cont{
+        font-size: 14px;
+    }
+
+    .cont i{
+        font-size: 25px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+
+    .slog{
+        font-size: 14px;
+    }
+}
+
 
 
         

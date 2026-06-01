@@ -267,3 +267,164 @@ footer{
 .align h6{
     font-size: 20px;
 }
+
+
+
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .boite-connexion{
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .mois{
+        width: 95%;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .boite-connexion{
+        width: 95%;
+        height: auto;
+        padding: 25px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .champ-saisie{
+        padding: 8px;
+    }
+
+    .bouton-connexion,
+    .bouton-reseau{
+        font-size: 14px;
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .de,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Nous{
+        width: 100%;
+    }
+
+    .align{
+        width: 100%;
+        align-items: center;
+    }
+
+    .slog{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    header button{
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .boite-connexion{
+        width: 98%;
+        padding: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .texte-bienvenue,
+    .texte-inscription{
+        font-size: 12px;
+    }
+
+    .cont{
+        font-size: 14px;
+    }
+
+    .cont i{
+        font-size: 25px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+
+    .slog{
+        font-size: 14px;
+    }
+}

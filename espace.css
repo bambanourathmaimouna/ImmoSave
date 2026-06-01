@@ -8,9 +8,6 @@ body{
     font-family: Arial, sans-serif;
 }
 
-
-
-
 header{
     height: 130px;
     display: flex;
@@ -268,4 +265,194 @@ footer{
     padding:12px 20px;
     border-radius:8px;
     cursor:pointer;
+}
+
+@media screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .statistiques{
+        flex-wrap: wrap;
+    }
+
+    .carte{
+        min-width: 250px;
+    }
+
+    .annonce{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .annonce img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .mois{
+        width: 95%;
+    }
+
+    .slog{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .conteneur{
+        width: 95%;
+    }
+
+    .bienvenue{
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .statistiques{
+        flex-direction: column;
+    }
+
+    .carte{
+        width: 100%;
+    }
+
+    .annonce{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .annonce img{
+        width: 100%;
+        height: auto;
+    }
+
+    .actions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profil,
+    .deconnexion{
+        width: 90%;
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .mois{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .de,
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .log{
+        width: 150px;
+        margin: auto;
+    }
+
+    .cont{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .align{
+        width: 100%;
+        align-items: center;
+    }
+
+    .slog{
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    header button{
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .bienvenue{
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .carte h3{
+        font-size: 24px;
+    }
+
+    .carte{
+        padding: 15px;
+    }
+
+    .profil,
+    .deconnexion{
+        font-size: 14px;
+    }
+
+    .cont{
+        font-size: 14px;
+    }
+
+    .cont i{
+        font-size: 25px;
+    }
+
+    .align h6{
+        font-size: 16px;
+    }
+
+    .slog{
+        font-size: 14px;
+    }
 }
